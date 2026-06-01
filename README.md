@@ -16,4 +16,22 @@ The goal of this extension is to make it easy not only to add *a* license to you
 project, but also to set up *dual* license projects. It pulls down license text, fills
 in placeholders with the appropriate values, and creates one or more files.
 
+## Usage examples
+
+```shell
+# Generate a LICENSE file with the MIT License text.
+gh license mit
+```
+
+```shell
+# List available licenses by their key and their name.
+gh license list
+```
+
+```shell
+# Generate multiple licenses, each with their own suffix.
+# This generates LICENSE-APACHE and LICENSE-MIT files.
+gh license multi apache-2.0 mit
+```
+
 [original]: https://github.com/mislav/gh-license
