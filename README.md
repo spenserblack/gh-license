@@ -1,5 +1,7 @@
 # `gh license`
 
+[![CI](https://github.com/spenserblack/gh-license/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/gh-license/actions/workflows/ci.yml)
+
 Generate a license file for your project. Inspired by [gh-license by @mislav][original].
 
 ## Installation
