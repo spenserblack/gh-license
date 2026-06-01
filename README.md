@@ -1,6 +1,7 @@
 # `gh license`
 
 [![CI](https://github.com/spenserblack/gh-license/actions/workflows/ci.yml/badge.svg)](https://github.com/spenserblack/gh-license/actions/workflows/ci.yml)
+[![Downloads](https://img.shields.io/github/downloads/spenserblack/gh-license/total)](https://github.com/spenserblack/gh-license/releases)
 
 Generate a license file for your project. Inspired by [gh-license by @mislav][original].
 
