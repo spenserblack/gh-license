@@ -28,9 +28,11 @@ func DefaultContext(git git.Git) (ctx Context, err error) {
 
 // Render replaces text's placeholders with the actual values according to the context.
 func (ctx Context) Render(s string) string {
+	// HACK FullName might have newlines or other unwanted characters as a result of
+	//		command output, so we remove those characters.
 	replacer := strings.NewReplacer(
 		"[year]", strconv.Itoa(ctx.Date.Year()),
-		"[fullname]", ctx.FullName,
+		"[fullname]", strings.TrimSpace(ctx.FullName),
 	)
 	return replacer.Replace(s)
 }
