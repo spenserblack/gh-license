@@ -2,6 +2,12 @@
 
 Generate a license file for your project. Inspired by [gh-license by @mislav][original].
 
+## Installation
+
+```shell
+gh extension install spenserblack/gh-license
+```
+
 ## Description
 
 The goal of this extension is to make it easy not only to add *a* license to your
